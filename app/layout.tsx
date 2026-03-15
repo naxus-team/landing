@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans, Noto_Sans_Arabic } from "next/font/google";
 import { Providers } from "./providers";
 import { type Locale } from "@/lib/i18n";
+import { Analytics } from "@vercel/analytics/next"
 
 import "./globals.css";
 
@@ -64,6 +65,7 @@ export default function RootLayout({
     >
       <body>
         <Providers>{children}</Providers>
+        <Analytics />
       </body>
     </html>
   );
