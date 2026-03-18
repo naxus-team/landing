@@ -16,35 +16,35 @@
   --radius: 0.625rem;
 }
 
-/* ── LIGHT MODE — warm beige like Claude ── */
+/* ── LIGHT MODE ── */
 :root {
-  --background:        hsl(36 33% 97%);   /* بيج فاتح جداً */
-  --foreground:        hsl(25 15% 12%);   /* بني داكن */
-  --card:              hsl(36 30% 99%);   /* أبيض بني خفيف */
-  --card-foreground:   hsl(25 15% 12%);
-  --muted:             hsl(35 25% 92%);   /* بيج مطفي */
-  --muted-foreground:  hsl(25 10% 48%);   /* بني رمادي */
-  --accent:            hsl(25 15% 12%);   /* بني داكن للـ accent */
-  --accent-foreground: hsl(36 33% 97%);
-  --border:            hsl(34 20% 87%);   /* بيج للـ borders */
-  --input:             hsl(35 25% 92%);
-  --ring:              hsl(25 10% 65%);
+  --background:        hsl(0);
+  --foreground:        hsl(0 0% 12%);
+  --card:              hsl(0 0% 99%);
+  --card-foreground:   hsl(0 0% 12%);
+  --muted:             hsl(0 0% 92%);
+  --muted-foreground:  hsl(0 0% 48%);
+  --accent:            hsl(0 0% 12%);
+  --accent-foreground: hsl(0 0% 97%);
+  --border:            hsl(0 0% 87%);
+  --input:             hsl(0 0% 92%);
+  --ring:              hsl(0 0% 65%);
   --radius:            0.625rem;
 }
 
 /* ── DARK MODE — neutral dark ── */
 .dark {
-  --background:        hsl(25 8% 10%);    /* بني أسود */
-  --foreground:        hsl(36 20% 95%);   /* بيج فاتح */
-  --card:              hsl(25 8% 13%);
-  --card-foreground:   hsl(36 20% 95%);
-  --muted:             hsl(25 8% 18%);
-  --muted-foreground:  hsl(34 8% 58%);
-  --accent:            hsl(36 20% 88%);
-  --accent-foreground: hsl(25 8% 10%);
-  --border:            hsl(25 8% 22%);
-  --input:             hsl(25 8% 18%);
-  --ring:              hsl(25 8% 40%);
+  --background:        hsl(0 0% 10%);
+  --foreground:        hsl(0 0% 95%);
+  --card:              hsl(0 0% 13%);
+  --card-foreground:   hsl(0 0% 95%);
+  --muted:             hsl(0 0% 18%);
+  --muted-foreground:  hsl(0 0% 58%);
+  --accent:            hsl(0 0% 88%);
+  --accent-foreground: hsl(0 0% 10%);
+  --border:            hsl(0 0% 22%);
+  --input:             hsl(0 0% 18%);
+  --ring:              hsl(0 0% 40%);
 }
 
 @layer base {

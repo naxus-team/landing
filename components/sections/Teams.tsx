@@ -91,7 +91,7 @@ export default function Team() {
                             transition={{ duration: 0.4, delay: i * 0.08 }}
                             className="group flex flex-col rounded-2xl rounded-tl-3xl rounded-tr-3xl border hover:bg-muted/40 transition-colors duration-150 overflow-hidden"
                         >
-                            {/* Avatar — كبير */}
+                            {/* Avatar*/}
                             <div className="relative w-full aspect-square bg-muted flex items-center justify-center border-b">
                                 {member.image ? (
                                     <img
@@ -138,18 +138,19 @@ export default function Team() {
                                     <span className="text-md font-semibold text-foreground leading-tight">
                                         {member.name}
                                     </span>
-                                    <Badge
-                                        className={`text-[10px] px-2 py-0 rounded-full shrink-0 ${ROLE_STYLES[member.role]}`}
-                                    >
-                                        {ROLE_LABELS[member.role][locale] ?? ROLE_LABELS[member.role].en}
-                                    </Badge>
                                 </div>
+
+                                <Badge
+                                    className={`text-[10px] px-2 py-0 rounded-full shrink-0 ${ROLE_STYLES[member.role]}`}
+                                >
+                                    {ROLE_LABELS[member.role][locale] ?? ROLE_LABELS[member.role].en}
+                                </Badge>
 
                                 <p className="text-xs text-muted-foreground leading-relaxed">
                                     {member.bio[locale]}
                                 </p>
 
-                                {/* Social buttons — دايماً ظاهرة */}
+                                {/* Social buttons */}
                                 {member.social && (
                                     <div className="flex items-center gap-1.5 mt-1 flex-wrap">
                                         {Object.entries(member.social).map(([key, url]) => {

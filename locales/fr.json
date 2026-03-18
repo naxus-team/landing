@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "services": "Services",
+    "work": "Projets",
+    "about": "À propos",
+    "contact": "Contact",
+    "team": "Équipe",
+    "analytics": "Analytique",
+    "content": "Contenu",
+    "clients": "Clients",
+    "settings": "Paramètres",
+    "overview": "Vue d'ensemble",
+    "dashboard": "Tableau de bord"
+  },
+  "hero": {
+    "badge": "Développement technologique · Dubaï, EAU",
+    "line1": "VOTRE",
+    "line2": "VISION.",
+    "description": "Nous concevons, construisons et développons des entreprises qui redéfinissent les secteurs.",
+    "cta_primary": "Nos services",
+    "cta_secondary": "Voir nos projets",
+    "cta_start": "Démarrer un projet",
+    "stats": {
+      "projects": "Projets",
+      "industries": "Secteurs",
+      "founded": "Fondée",
+      "hq": "Siège"
+    }
+  },
+  "services": {
+    "label": "Ce que nous faisons",
+    "title": "Nos services",
+    "sub": "Six compétences clés, une vision unifiée.",
+    "cta": "Un projet en tête ? Parlons-en.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Développement produit",
+        "description": "De l'idée à la production — des produits web et mobile évolutifs.",
+        "tags": [
+          "Web Apps",
+          "Mobile",
+          "APIs"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Architecture système",
+        "description": "Des architectures performantes conçues pour évoluer dès le premier jour.",
+        "tags": [
+          "Cloud",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Intégration IA",
+        "description": "Intégrez l'automatisation intelligente dans votre produit.",
+        "tags": [
+          "LLMs",
+          "Automatisation",
+          "ML"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "Transformation digitale",
+        "description": "Modernisez vos opérations grâce à l'adoption technologique.",
+        "tags": [
+          "Migration",
+          "Conseil",
+          "Stratégie"
+        ]
+      },
+      {
+        "number": "05",
+        "title": "Ingénierie de croissance",
+        "description": "Ingénierie axée sur les données pour la performance et la croissance.",
+        "tags": [
+          "Analytics",
+          "Performance",
+          "SEO"
+        ]
+      },
+      {
+        "number": "06",
+        "title": "Due diligence tech",
+        "description": "Audit des bases de code et infrastructures avant les décisions critiques.",
+        "tags": [
+          "Audit",
+          "Sécurité",
+          "Rapports"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "label": "Projets sélectionnés",
+    "title": "Ce que nous avons construit",
+    "sub": "De vrais produits. Un vrai impact.",
+    "cta": "Démarrer un projet",
+    "filters": [
+      "Tous",
+      "Développement produit",
+      "Intégration IA",
+      "Architecture système",
+      "Ingénierie de croissance",
+      "Transformation digitale"
+    ],
+    "showing": "Affichage",
+    "of": "sur",
+    "projects": "projets",
+    "status": {
+      "live": "En ligne",
+      "inProgress": "En cours",
+      "completed": "Terminé"
+    }
+  },
+  "about": {
+    "label": "Qui sommes-nous",
+    "title": "Fondés sur la vision",
+    "p1": "Naxus est une société de développement technologique et holding basée à Dubaï, EAU.",
+    "p2": "Nous collaborons avec des fondateurs, des entreprises et des investisseurs.",
+    "cta_primary": "Travailler avec nous",
+    "cta_secondary": "Nos services",
+    "values": [
+      {
+        "title": "La vision d'abord",
+        "desc": "Chaque décision commence par l'objectif final."
+      },
+      {
+        "title": "Livrer vite",
+        "desc": "La rapidité est une fonctionnalité."
+      },
+      {
+        "title": "Assumer",
+        "desc": "Responsabilité totale. Pas d'excuses."
+      },
+      {
+        "title": "Construire scalable",
+        "desc": "Architecture conçue pour croître avec vous."
+      }
+    ],
+    "stats": [
+      {
+        "value": "2022",
+        "label": "Fondée"
+      },
+      {
+        "value": "15+",
+        "label": "Projets"
+      },
+      {
+        "value": "6",
+        "label": "Pays"
+      },
+      {
+        "value": "∞",
+        "label": "Ambition"
+      }
+    ]
+  },
+  "team": {
+    "label": "L'équipe",
+    "title": "Notre équipe"
+  },
+  "contact": {
+    "label": "Contactez-nous",
+    "title": "Construisons ensemble",
+    "sub": "Un projet en tête ? Nous serions ravis d'en entendre parler.",
+    "available": "Disponible pour de nouveaux projets",
+    "info": {
+      "email": "E-mail",
+      "location": "Localisation",
+      "linkedin": "LinkedIn"
+    },
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Jean Dupont",
+      "email": "E-mail",
+      "emailPlaceholder": "jean@entreprise.fr",
+      "subject": "Sujet",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de votre projet...",
+      "submit": "Envoyer le message",
+      "subjects": [
+        "Développement produit",
+        "Intégration IA",
+        "Architecture système",
+        "Conseil tech",
+        "Autre"
+      ]
+    },
+    "success": {
+      "title": "Message envoyé",
+      "sub": "Nous vous répondrons dans les 24 heures.",
+      "again": "Envoyer un autre"
+    }
+  },
+  "auth": {
+    "getStarted": "Commencer",
+    "headline": "Commencer",
+    "sub": "Rejoignez Naxus et construisez votre vision.",
+    "login": "Connexion",
+    "loginSub": "Vous avez déjà un compte",
+    "join": "Nous rejoindre",
+    "joinSub": "Créer un nouveau compte",
+    "tagline": "Votre vision. Notre code.",
+    "pageTitle": "Bon retour",
+    "pageSubtitle": "Connectez-vous à votre compte Naxus",
+    "registerTitle": "Créer un compte",
+    "registerSubtitle": "Rejoignez l'équipe Naxus aujourd'hui",
+    "name": "Nom complet",
+    "namePlaceholder": "Jean Dupont",
+    "email": "E-mail",
+    "emailPlaceholder": "vous@entreprise.fr",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Min. 8 caractères",
+    "forgotPassword": "Mot de passe oublié?",
+    "signIn": "Se connecter",
+    "createAccount": "Créer un compte",
+    "noAccount": "Pas de compte?",
+    "hasAccount": "Déjà un compte?",
+    "createOne": "Créez-en un",
+    "signInLink": "Se connecter",
+    "orContinueWith": "ou",
+    "terms": "CGU",
+    "privacy": "Confidentialité",
+    "termsText": "En créant un compte, vous acceptez nos",
+    "and": "et"
+  },
+  "footer": {
+    "tagline": "Votre vision. Notre code. Construire l'avenir depuis Dubaï.",
+    "available": "Disponible dans le monde entier",
+    "company": "Entreprise",
+    "legal": "Légal",
+    "links": {
+      "about": "À propos",
+      "services": "Services",
+      "work": "Projets",
+      "contact": "Contact",
+      "privacy": "Confidentialité",
+      "terms": "Conditions"
+    },
+    "copyright": "Tous droits réservés.",
+    "motto": "VOTRE VISION. NOTRE CODE."
+  }
+}

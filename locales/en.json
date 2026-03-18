@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "services": "Services",
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact",
+    "team": "Team",
+    "analytics": "Analytics",
+    "content": "Content",
+    "clients": "Clients",
+    "settings": "Settings",
+    "overview": "Overview",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "badge": "Technology Development · Dubai, UAE",
+    "line1": "YOUR VISION.",
+    "line2": "OUR REALITY.",
+    "description": "We design, build, and scale companies that redefine industries through efficiency, technology, and vision.",
+    "cta_primary": "Our Services",
+    "cta_secondary": "View Work",
+    "cta_start": "Start Your Project",
+    "stats": { "projects": "Projects", "industries": "Industries", "founded": "Founded", "hq": "HQ" }
+  },
+  "services": {
+    "label": "What We Do",
+    "title": "Our Services",
+    "sub": "Six core capabilities, one unified vision.",
+    "cta": "Have a project in mind? Let's talk",
+    "items": [
+      { "number": "01", "title": "Product Development", "description": "From idea to production — scalable web and mobile products with clean code.", "tags": ["Web Apps", "Mobile", "APIs"] },
+      { "number": "02", "title": "System Architecture", "description": "Resilient, high-performance architectures built to scale from day one.", "tags": ["Cloud", "Microservices", "DevOps"] },
+      { "number": "03", "title": "AI Integration", "description": "Embed intelligent automation and AI-powered features into your product.", "tags": ["LLMs", "Automation", "ML"] },
+      { "number": "04", "title": "Digital Transformation", "description": "Modernize operations through strategic technology adoption.", "tags": ["Migration", "Consulting", "Strategy"] },
+      { "number": "05", "title": "Growth Engineering", "description": "Data-driven engineering focused on performance and growth loops.", "tags": ["Analytics", "Performance", "SEO"] },
+      { "number": "06", "title": "Tech Due Diligence", "description": "Audit codebases and infrastructure before critical decisions.", "tags": ["Audit", "Security", "Reporting"] }
+    ]
+  },
+  "work": {
+    "label": "Selected Work",
+    "title": "What We've Built",
+    "sub": "Real products. Real impact.",
+    "cta": "Start a project",
+    "filters": ["All", "Product Development", "AI Integration", "System Architecture", "Growth Engineering", "Digital Transformation"],
+    "showing": "Showing",
+    "of": "of",
+    "projects": "projects",
+    "status": { "live": "Live", "inProgress": "In Progress", "completed": "Completed" }
+  },
+  "about": {
+    "label": "Who We Are",
+    "title": "Built on Vision",
+    "p1": "Naxus is a technology development and holding company based in Dubai, UAE.",
+    "p2": "We partner with founders, enterprises, and investors to design, build, and grow products that redefine their industries.",
+    "cta_primary": "Work With Us",
+    "cta_secondary": "Our Services",
+    "values": [
+      { "title": "Vision First", "desc": "Every decision starts with the end goal in mind." },
+      { "title": "Ship Fast", "desc": "Speed is a feature, not an afterthought." },
+      { "title": "Own It", "desc": "Full accountability. No excuses, only solutions." },
+      { "title": "Build to Scale", "desc": "Architecture designed to grow with you." }
+    ],
+    "stats": [
+      { "value": "2022", "label": "Founded" },
+      { "value": "15+", "label": "Projects Shipped" },
+      { "value": "6", "label": "Countries" },
+      { "value": "∞", "label": "Ambition" }
+    ]
+  },
+  "team": { "label": "The People", "title": "Our Team" },
+  "contact": {
+    "label": "Get In Touch",
+    "title": "Let's Build Together",
+    "sub": "Have a project in mind? We'd love to hear about your vision.",
+    "available": "Available for new projects",
+    "info": { "email": "Email", "location": "Location", "linkedin": "LinkedIn" },
+    "form": {
+      "name": "Name", "namePlaceholder": "John Doe",
+      "email": "Email", "emailPlaceholder": "john@company.com",
+      "subject": "Subject", "message": "Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send Message",
+      "subjects": ["Product Development", "AI Integration", "System Architecture", "Tech Consulting", "Other"]
+    },
+    "success": { "title": "Message Sent", "sub": "We'll get back to you within 24 hours.", "again": "Send another" }
+  },
+  "auth": {
+    "getStarted": "Get Started", "headline": "Get Started", "sub": "Join Naxus and build your vision.",
+    "login": "Login", "loginSub": "Already have an account",
+    "join": "Join Us", "joinSub": "Create a new account",
+    "tagline": "Your Vision. Our Reality.",
+    "pageTitle": "Welcome back",
+    "pageSubtitle": "Sign in to your Naxus account",
+    "registerTitle": "Create account",
+    "registerSubtitle": "Join the Naxus team today",
+    "name": "Full Name", "namePlaceholder": "Adam Moussa",
+    "email": "Email", "emailPlaceholder": "you@company.com",
+    "password": "Password", "passwordPlaceholder": "Min. 8 characters",
+    "forgotPassword": "Forgot password?",
+    "signIn": "Sign in", "createAccount": "Create account",
+    "noAccount": "Don't have an account?", "hasAccount": "Already have an account?",
+    "createOne": "Create one", "signInLink": "Sign in",
+    "orContinueWith": "or",
+    "terms": "Terms", "privacy": "Privacy Policy",
+    "termsText": "By creating an account you agree to our", "and": "and"
+  },
+  "footer": {
+    "tagline": "Your Vision. Our Reality. Building we toghter.",
+    "available": "Available Worldwide", "company": "Company", "legal": "Legal",
+    "links": { "about": "About", "services": "Services", "work": "Work", "contact": "Contact", "privacy": "Privacy Policy", "terms": "Terms of Service" },
+    "copyright": "All rights reserved.", "motto": "YOUR VISION. OUR REALITY."
+  }
+}

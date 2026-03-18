@@ -9,6 +9,7 @@ import Logo from "@/components/common/Logo";
 import { Button } from "@/components/ui/button";
 import { Facebook, Github, Globe, Instagram, Linkedin, Twitter } from "lucide-react";
 import { type brandSocial } from "@/types";
+import FooterInfo from "../common/FooterInfo";
 
 const BRAND: brandSocial = {
     social: {
@@ -59,7 +60,7 @@ const FooterLink = memo(({ href, label, dimmed, onEnter, onLeave }: {
         onMouseLeave={onLeave}
         className="text-xs font-semibold w-fit transition-all duration-150"
         style={{
-            color: "var(--muted-foreground)",
+            color: "var(--foreground)",
             opacity: dimmed ? 0.4 : 1,
         }}
     >
@@ -152,9 +153,7 @@ export default function Footer() {
                 <Separator />
 
                 <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-6">
-                    <span className="text-xs text-muted-foreground">
-                        © {new Date().getFullYear()} Naxus. {t.footer.copyright}
-                    </span>
+                    <FooterInfo />
                     <div className="flex items-center gap-3">
                         <ThemeToggle />
                         <LangDialog />

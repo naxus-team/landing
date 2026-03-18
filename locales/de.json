@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "services": "Leistungen",
+    "work": "Projekte",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "team": "Team",
+    "analytics": "Analytik",
+    "content": "Inhalt",
+    "clients": "Kunden",
+    "settings": "Einstellungen",
+    "overview": "Übersicht",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "badge": "Technologieentwicklung · Dubai, VAE",
+    "line1": "DEINE VISION",
+    "line2": "UNSERE REALITÄT.",
+    "description": "Wir entwerfen, entwickeln und skalieren Unternehmen, die Branchen neu definieren.",
+    "cta_primary": "Unsere Leistungen",
+    "cta_secondary": "Projekte ansehen",
+    "cta_start": "Projekt starten",
+    "stats": {
+      "projects": "Projekte",
+      "industries": "Branchen",
+      "founded": "Gegründet",
+      "hq": "Hauptsitz"
+    }
+  },
+  "services": {
+    "label": "Was wir tun",
+    "title": "Leistungen",
+    "sub": "Sechs Kernkompetenzen, eine Vision.",
+    "cta": "Haben Sie ein Projekt? Sprechen wir.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Produktentwicklung",
+        "description": "Von der Idee bis zur Produktion — skalierbare Web- und Mobile-Produkte.",
+        "tags": [
+          "Web Apps",
+          "Mobile",
+          "APIs"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Systemarchitektur",
+        "description": "Robuste, leistungsstarke Architekturen, die von Anfang an skalieren.",
+        "tags": [
+          "Cloud",
+          "Microservices",
+          "DevOps"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "KI-Integration",
+        "description": "Intelligente Automatisierung direkt in Ihr Produkt eingebettet.",
+        "tags": [
+          "LLMs",
+          "Automatisierung",
+          "ML"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "Digitale Transformation",
+        "description": "Modernisierung durch strategische Technologieeinführung.",
+        "tags": [
+          "Migration",
+          "Beratung",
+          "Strategie"
+        ]
+      },
+      {
+        "number": "05",
+        "title": "Wachstumstechnik",
+        "description": "Datengetriebenes Engineering für Performance und Wachstum.",
+        "tags": [
+          "Analytics",
+          "Performance",
+          "SEO"
+        ]
+      },
+      {
+        "number": "06",
+        "title": "Tech Due Diligence",
+        "description": "Prüfung von Codebasen und Infrastruktur vor wichtigen Entscheidungen.",
+        "tags": [
+          "Audit",
+          "Sicherheit",
+          "Berichte"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "label": "Ausgewählte Projekte",
+    "title": "Was wir gebaut haben",
+    "sub": "Echte Produkte. Echte Wirkung.",
+    "cta": "Projekt starten",
+    "filters": [
+      "Alle",
+      "Produktentwicklung",
+      "KI-Integration",
+      "Systemarchitektur",
+      "Wachstumstechnik",
+      "Digitale Transformation"
+    ],
+    "showing": "Zeige",
+    "of": "von",
+    "projects": "Projekten",
+    "status": {
+      "live": "Live",
+      "inProgress": "In Arbeit",
+      "completed": "Abgeschlossen"
+    }
+  },
+  "about": {
+    "label": "Wer wir sind",
+    "title": "Auf Vision gebaut",
+    "p1": "Naxus ist ein Technologieentwicklungs- und Holdingunternehmen mit Sitz in Dubai, VAE.",
+    "p2": "Wir arbeiten mit Gründern, Unternehmen und Investoren zusammen.",
+    "cta_primary": "Mit uns arbeiten",
+    "cta_secondary": "Leistungen",
+    "values": [
+      {
+        "title": "Vision zuerst",
+        "desc": "Jede Entscheidung beginnt mit dem Endziel."
+      },
+      {
+        "title": "Schnell liefern",
+        "desc": "Geschwindigkeit ist ein Feature."
+      },
+      {
+        "title": "Verantwortung",
+        "desc": "Volle Verantwortung. Keine Ausreden."
+      },
+      {
+        "title": "Skalierbar bauen",
+        "desc": "Architektur, die mit Ihnen wächst."
+      }
+    ],
+    "stats": [
+      {
+        "value": "2022",
+        "label": "Gegründet"
+      },
+      {
+        "value": "15+",
+        "label": "Projekte"
+      },
+      {
+        "value": "6",
+        "label": "Länder"
+      },
+      {
+        "value": "∞",
+        "label": "Ambitionen"
+      }
+    ]
+  },
+  "team": {
+    "label": "Das Team",
+    "title": "Unser Team"
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Gemeinsam bauen",
+    "sub": "Haben Sie ein Projekt? Wir würden gerne von Ihrer Vision hören.",
+    "available": "Verfügbar für neue Projekte",
+    "info": {
+      "email": "E-Mail",
+      "location": "Standort",
+      "linkedin": "LinkedIn"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Max Mustermann",
+      "email": "E-Mail",
+      "emailPlaceholder": "max@firma.de",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt...",
+      "submit": "Nachricht senden",
+      "subjects": [
+        "Produktentwicklung",
+        "KI-Integration",
+        "Systemarchitektur",
+        "Tech-Beratung",
+        "Sonstiges"
+      ]
+    },
+    "success": {
+      "title": "Nachricht gesendet",
+      "sub": "Wir melden uns innerhalb von 24 Stunden.",
+      "again": "Weitere senden"
+    }
+  },
+  "auth": {
+    "getStarted": "Loslegen",
+    "headline": "Loslegen",
+    "sub": "Treten Sie Naxus bei.",
+    "login": "Anmelden",
+    "loginSub": "Sie haben bereits ein Konto",
+    "join": "Registrieren",
+    "joinSub": "Neues Konto erstellen",
+    "tagline": "Deine Vision. Unsere Realität.",
+    "pageTitle": "Willkommen zurück",
+    "pageSubtitle": "Melde dich bei deinem Naxus-Konto an",
+    "registerTitle": "Konto erstellen",
+    "registerSubtitle": "Tritt dem Naxus-Team heute bei",
+    "name": "Vollständiger Name",
+    "namePlaceholder": "Max Mustermann",
+    "email": "E-Mail",
+    "emailPlaceholder": "du@firma.de",
+    "password": "Passwort",
+    "passwordPlaceholder": "Mind. 8 Zeichen",
+    "forgotPassword": "Passwort vergessen?",
+    "signIn": "Anmelden",
+    "createAccount": "Konto erstellen",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Bereits ein Konto?",
+    "createOne": "Erstelle eines",
+    "signInLink": "Anmelden",
+    "orContinueWith": "oder",
+    "terms": "AGB",
+    "privacy": "Datenschutz",
+    "termsText": "Mit der Erstellung eines Kontos stimmst du unseren",
+    "and": "und"
+  },
+  "footer": {
+    "tagline": "Deine Vision. Unsere Realität. Die Zukunft aus Dubai.",
+    "available": "Weltweit verfügbar",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "links": {
+      "about": "Über uns",
+      "services": "Leistungen",
+      "work": "Projekte",
+      "contact": "Kontakt",
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen"
+    },
+    "copyright": "Alle Rechte vorbehalten.",
+    "motto": "DEINE VISION. UNSERE REALITÄT."
+  }
+}

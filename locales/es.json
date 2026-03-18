@@ -1,0 +1,249 @@
+{
+    "nav": {
+        "services": "Servicios",
+        "work": "Proyectos",
+        "about": "Nosotros",
+        "contact": "Contacto",
+        "team": "Equipo",
+        "analytics": "Analítica",
+        "content": "Contenido",
+        "clients": "Clientes",
+        "settings": "Configuración",
+        "overview": "Resumen",
+        "dashboard": "Panel de control"
+    },
+    "hero": {
+        "badge": "Desarrollo tecnológico · Dubái, EAU",
+        "line1": "TU",
+        "line2": "VISIÓN.",
+        "description": "Diseñamos, construimos y escalamos empresas que redefinen industrias.",
+        "cta_primary": "Nuestros servicios",
+        "cta_secondary": "Ver proyectos",
+        "cta_start": "Iniciar proyecto",
+        "stats": {
+            "projects": "Proyectos",
+            "industries": "Industrias",
+            "founded": "Fundada",
+            "hq": "Sede"
+        }
+    },
+    "services": {
+        "label": "Lo que hacemos",
+        "title": "Nuestros servicios",
+        "sub": "Seis capacidades clave, una visión unificada.",
+        "cta": "¿Tienes un proyecto? Hablemos.",
+        "items": [
+            {
+                "number": "01",
+                "title": "Desarrollo de producto",
+                "description": "De la idea a producción — productos web y mobile escalables.",
+                "tags": [
+                    "Web Apps",
+                    "Mobile",
+                    "APIs"
+                ]
+            },
+            {
+                "number": "02",
+                "title": "Arquitectura de sistemas",
+                "description": "Arquitecturas robustas y de alto rendimiento desde el día uno.",
+                "tags": [
+                    "Cloud",
+                    "Microservicios",
+                    "DevOps"
+                ]
+            },
+            {
+                "number": "03",
+                "title": "Integración de IA",
+                "description": "Automatización inteligente integrada en tu producto.",
+                "tags": [
+                    "LLMs",
+                    "Automatización",
+                    "ML"
+                ]
+            },
+            {
+                "number": "04",
+                "title": "Transformación digital",
+                "description": "Moderniza operaciones mediante adopción tecnológica estratégica.",
+                "tags": [
+                    "Migración",
+                    "Consultoría",
+                    "Estrategia"
+                ]
+            },
+            {
+                "number": "05",
+                "title": "Ingeniería de crecimiento",
+                "description": "Ingeniería basada en datos para rendimiento y crecimiento.",
+                "tags": [
+                    "Analytics",
+                    "Rendimiento",
+                    "SEO"
+                ]
+            },
+            {
+                "number": "06",
+                "title": "Due diligence tecnológica",
+                "description": "Auditoría de código e infraestructura antes de decisiones críticas.",
+                "tags": [
+                    "Auditoría",
+                    "Seguridad",
+                    "Informes"
+                ]
+            }
+        ]
+    },
+    "work": {
+        "label": "Trabajo seleccionado",
+        "title": "Lo que hemos construido",
+        "sub": "Productos reales. Impacto real.",
+        "cta": "Iniciar un proyecto",
+        "filters": [
+            "Todos",
+            "Desarrollo de producto",
+            "Integración de IA",
+            "Arquitectura de sistemas",
+            "Ingeniería de crecimiento",
+            "Transformación digital"
+        ],
+        "showing": "Mostrando",
+        "of": "de",
+        "projects": "proyectos",
+        "status": {
+            "live": "En vivo",
+            "inProgress": "En progreso",
+            "completed": "Completado"
+        }
+    },
+    "about": {
+        "label": "Quiénes somos",
+        "title": "Construidos sobre la visión",
+        "p1": "Naxus es una empresa de desarrollo tecnológico y holding con sede en Dubái, EAU.",
+        "p2": "Colaboramos con fundadores, empresas e inversores para desarrollar productos.",
+        "cta_primary": "Trabajar con nosotros",
+        "cta_secondary": "Nuestros servicios",
+        "values": [
+            {
+                "title": "Visión primero",
+                "desc": "Cada decisión comienza con el objetivo final."
+            },
+            {
+                "title": "Enviar rápido",
+                "desc": "La velocidad es una característica."
+            },
+            {
+                "title": "Responsabilidad",
+                "desc": "Responsabilidad total. Sin excusas."
+            },
+            {
+                "title": "Construir escalable",
+                "desc": "Arquitectura diseñada para crecer contigo."
+            }
+        ],
+        "stats": [
+            {
+                "value": "2022",
+                "label": "Fundada"
+            },
+            {
+                "value": "15+",
+                "label": "Proyectos"
+            },
+            {
+                "value": "6",
+                "label": "Países"
+            },
+            {
+                "value": "∞",
+                "label": "Ambición"
+            }
+        ]
+    },
+    "team": {
+        "label": "El equipo",
+        "title": "Nuestro equipo"
+    },
+    "contact": {
+        "label": "Contáctanos",
+        "title": "Construyamos juntos",
+        "sub": "¿Tienes un proyecto en mente? Nos encantaría escuchar tu visión.",
+        "available": "Disponible para nuevos proyectos",
+        "info": {
+            "email": "Correo",
+            "location": "Ubicación",
+            "linkedin": "LinkedIn"
+        },
+        "form": {
+            "name": "Nombre",
+            "namePlaceholder": "Juan García",
+            "email": "Correo",
+            "emailPlaceholder": "juan@empresa.es",
+            "subject": "Asunto",
+            "message": "Mensaje",
+            "messagePlaceholder": "Cuéntanos sobre tu proyecto...",
+            "submit": "Enviar mensaje",
+            "subjects": [
+                "Desarrollo de producto",
+                "Integración de IA",
+                "Arquitectura de sistemas",
+                "Consultoría tech",
+                "Otro"
+            ]
+        },
+        "success": {
+            "title": "Mensaje enviado",
+            "sub": "Te responderemos en 24 horas.",
+            "again": "Enviar otro"
+        }
+    },
+    "auth": {
+        "getStarted": "Empezar",
+        "headline": "Empezar",
+        "sub": "Únete a Naxus y construye tu visión.",
+        "login": "Iniciar sesión",
+        "loginSub": "Ya tienes una cuenta",
+        "join": "Únete",
+        "joinSub": "Crear una cuenta nueva",
+        "tagline": "Tu visión. Nuestro código.",
+        "pageTitle": "Bienvenido de vuelta",
+        "pageSubtitle": "Inicia sesión en tu cuenta de Naxus",
+        "registerTitle": "Crear cuenta",
+        "registerSubtitle": "Únete al equipo de Naxus hoy",
+        "name": "Nombre completo",
+        "namePlaceholder": "Juan García",
+        "email": "Correo",
+        "emailPlaceholder": "tu@empresa.es",
+        "password": "Contraseña",
+        "passwordPlaceholder": "Mín. 8 caracteres",
+        "forgotPassword": "¿Olvidaste tu contraseña?",
+        "signIn": "Iniciar sesión",
+        "createAccount": "Crear cuenta",
+        "noAccount": "¿No tienes cuenta?",
+        "hasAccount": "¿Ya tienes cuenta?",
+        "createOne": "Créala",
+        "signInLink": "Inicia sesión",
+        "orContinueWith": "o",
+        "terms": "Términos",
+        "privacy": "Privacidad",
+        "termsText": "Al crear una cuenta aceptas nuestros",
+        "and": "y"
+    },
+    "footer": {
+        "tagline": "Tu visión. Nuestro código. Construyendo el futuro desde Dubái.",
+        "available": "Disponible en todo el mundo",
+        "company": "Empresa",
+        "legal": "Legal",
+        "links": {
+            "about": "Nosotros",
+            "services": "Servicios",
+            "work": "Proyectos",
+            "contact": "Contacto",
+            "privacy": "Privacidad",
+            "terms": "Términos"
+        },
+        "copyright": "Todos los derechos reservados.",
+        "motto": "TU VISIÓN. NUESTRO CÓDIGO."
+    }
+}

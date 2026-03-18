@@ -7,7 +7,8 @@ import {
   useEffect,
   ReactNode,
 } from "react";
-import { Locale, messages, defaultLocale } from "./i18n";
+import { messages, defaultLocale } from "./i18n";
+export type getLocale = "en" | "ar" | "de" | "fr" | "es" | "it";
 
 type Messages = {
   nav: {
@@ -16,6 +17,12 @@ type Messages = {
     about: string;
     contact: string;
     team: string;
+    analytics: string;
+    content: string;
+    clients: string;
+    settings: string;
+    overview: string;
+    dashboard: string;
   };
   hero: {
     badge: string;
@@ -101,14 +108,17 @@ type Messages = {
     };
   };
   auth: {
-    getStarted: string;
-    headline: string;
-    sub: string;
-    login: string;
-    loginSub: string;
-    join: string;
-    joinSub: string;
-    tagline: string;
+    getStarted: string; headline: string; sub: string;
+    login: string; loginSub: string; join: string; joinSub: string; tagline: string;
+    pageTitle: string; pageSubtitle: string;
+    registerTitle: string; registerSubtitle: string;
+    name: string; namePlaceholder: string;
+    email: string; emailPlaceholder: string;
+    password: string; passwordPlaceholder: string;
+    forgotPassword: string; signIn: string; createAccount: string;
+    noAccount: string; hasAccount: string; createOne: string; signInLink: string;
+    orContinueWith: string; terms: string; privacy: string;
+    termsText: string; and: string;
   };
   footer: {
     tagline: string;
@@ -129,16 +139,16 @@ type Messages = {
 };
 
 type I18nContextType = {
-  locale:    Locale;
-  t:         Messages;
-  setLocale: (l: Locale) => void;
-  isRTL:     boolean;
+  locale: getLocale;
+  t: Messages;
+  setLocale: (l: getLocale) => void;
+  isRTL: boolean;
 };
 
 // ── Constants ──────────────────────────────────────────
-const VALID_LOCALES: Locale[] = ["en", "ar", "de", "fr", "es", "it"];
+const VALID_LOCALES: getLocale[] = ["en", "ar", "de", "fr", "es", "it"];
 
-const LOCALE_MAP: Record<string, Locale> = {
+const LOCALE_MAP: Record<string, getLocale> = {
   "en": "en", "en-US": "en", "en-GB": "en", "en-AU": "en",
   "ar": "ar", "ar-SA": "ar", "ar-AE": "ar", "ar-EG": "ar",
   "ar-IQ": "ar", "ar-JO": "ar", "ar-KW": "ar", "ar-LB": "ar",
@@ -152,61 +162,58 @@ const LOCALE_MAP: Record<string, Locale> = {
 };
 
 // ── Helpers ────────────────────────────────────────────
-function detectBrowserLocale(): Locale {
+function detectBrowserLocale(): getLocale {
   if (typeof window === "undefined") return defaultLocale;
   const langs = navigator.languages?.length
     ? navigator.languages
     : [navigator.language];
 
   for (const lang of langs) {
-    if (LOCALE_MAP[lang])              return LOCALE_MAP[lang];
+    if (LOCALE_MAP[lang]) return LOCALE_MAP[lang];
     const base = lang.split("-")[0];
-    if (LOCALE_MAP[base])              return LOCALE_MAP[base];
+    if (LOCALE_MAP[base]) return LOCALE_MAP[base];
   }
   return defaultLocale;
 }
 
-function applyLocaleToDOM(l: Locale) {
+function applyLocaleToDOM(l: getLocale) {
   const isRTL = l === "ar";
   document.documentElement.lang = l;
-  document.documentElement.dir  = isRTL ? "rtl" : "ltr";
-  document.body.dir              = isRTL ? "rtl" : "ltr";
+  document.documentElement.dir = isRTL ? "rtl" : "ltr";
+  document.body.dir = isRTL ? "rtl" : "ltr";
 }
 
 // ── Context ────────────────────────────────────────────
 const I18nContext = createContext<I18nContextType>({
-  locale:    defaultLocale,
-  t:         messages[defaultLocale] as Messages,
-  setLocale: () => {},
-  isRTL:     false,
+  locale: defaultLocale,
+  t: messages[defaultLocale] as Messages,
+  setLocale: () => { },
+  isRTL: false,
 });
 
 // ── Provider ───────────────────────────────────────────
 export function I18nProvider({ children }: { children: ReactNode }) {
-  const [locale,  setLocaleState] = useState<Locale>(defaultLocale);
-  const [mounted, setMounted]     = useState(false);
+  const [locale, setLocaleState] = useState<getLocale>(defaultLocale);
+  const [mounted, setMounted] = useState(false);
 
-  // ✅ يُحفظ اختيار المستخدم ويُميّزه عن الـ auto
-  const setLocale = (l: Locale) => {
+  const setLocale = (l: getLocale) => {
     setLocaleState(l);
     applyLocaleToDOM(l);
-    localStorage.setItem("naxus-locale",        l);
+    localStorage.setItem("naxus-locale", l);
     localStorage.setItem("naxus-locale-source", "manual");
   };
 
   useEffect(() => {
-    const saved  = localStorage.getItem("naxus-locale")        as Locale | null;
+    const saved = localStorage.getItem("naxus-locale") as getLocale | null;
     const source = localStorage.getItem("naxus-locale-source");
 
-    let initial: Locale;
+    let initial: getLocale;
 
     if (source === "manual" && saved && VALID_LOCALES.includes(saved)) {
-      // ✅ المستخدم اختار يدوياً — احترم اختياره
       initial = saved;
     } else {
-      // ✅ Auto-detect من البراوزر
       initial = detectBrowserLocale();
-      localStorage.setItem("naxus-locale",        initial);
+      localStorage.setItem("naxus-locale", initial);
       localStorage.setItem("naxus-locale-source", "auto");
     }
 
@@ -218,10 +225,10 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   return (
     <I18nContext.Provider
       value={{
-        locale:  mounted ? locale : defaultLocale,
-        t:       messages[mounted ? locale : defaultLocale] as Messages,
+        locale: mounted ? locale : defaultLocale,
+        t: messages[mounted ? locale : defaultLocale] as Messages,
         setLocale,
-        isRTL:   mounted ? locale === "ar" : false,
+        isRTL: mounted ? locale === "ar" : false,
       }}
     >
       {mounted

@@ -41,7 +41,9 @@ export type Role =
   | "ai-engineer"
   | "sales"
   | "marketing"
-  | "advisor";
+  | "advisor"
+  | "viewer"
+  ;
 
 // ===== Role Display =====
 export const ROLE_LABELS: Record<Role, Partial<Record<Locale, string>> & { en: string }> = {
@@ -60,6 +62,7 @@ export const ROLE_LABELS: Record<Role, Partial<Record<Locale, string>> & { en: s
   "sales": { en: "Sales", ar: "مبيعات" },
   "marketing": { en: "Marketing", ar: "تسويق" },
   "advisor": { en: "Advisor", ar: "مستشار" },
+  "viewer": { en: "Viewer", ar: "مشاهد" },
 };
 
 // ===== Role Badge Style =====
@@ -79,6 +82,7 @@ export const ROLE_STYLES: Record<Role, string> = {
   "sales": "border bg-transparent text-muted-foreground",
   "marketing": "border bg-transparent text-muted-foreground",
   "advisor": "border bg-transparent text-muted-foreground",
+  "viewer": "border bg-transparent text-muted-foreground",
 };
 
 export type TeamMember = {

@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "services": "Servizi",
+    "work": "Progetti",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "team": "Team",
+    "analytics": "Analisi",
+    "content": "Contenuto",
+    "clients": "Clienti",
+    "settings": "Impostazioni",
+    "overview": "Panoramica",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "badge": "Sviluppo tecnologico · Dubai, EAU",
+    "line1": "LA TUA",
+    "line2": "VISIONE.",
+    "description": "Progettiamo, costruiamo e scaliamo aziende che ridefiniscono i settori.",
+    "cta_primary": "I nostri servizi",
+    "cta_secondary": "Vedi progetti",
+    "cta_start": "Inizia il progetto",
+    "stats": {
+      "projects": "Progetti",
+      "industries": "Settori",
+      "founded": "Fondata",
+      "hq": "Sede"
+    }
+  },
+  "services": {
+    "label": "Cosa facciamo",
+    "title": "I nostri servizi",
+    "sub": "Sei competenze chiave, una visione unificata.",
+    "cta": "Hai un progetto? Parliamone.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Sviluppo prodotto",
+        "description": "Dall'idea alla produzione — prodotti web e mobile scalabili.",
+        "tags": [
+          "Web Apps",
+          "Mobile",
+          "APIs"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Architettura di sistema",
+        "description": "Architetture ad alte prestazioni costruite per scalare dal primo giorno.",
+        "tags": [
+          "Cloud",
+          "Microservizi",
+          "DevOps"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Integrazione AI",
+        "description": "Automazione intelligente integrata nel tuo prodotto.",
+        "tags": [
+          "LLMs",
+          "Automazione",
+          "ML"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "Trasformazione digitale",
+        "description": "Modernizza le operazioni attraverso l'adozione tecnologica strategica.",
+        "tags": [
+          "Migrazione",
+          "Consulenza",
+          "Strategia"
+        ]
+      },
+      {
+        "number": "05",
+        "title": "Growth engineering",
+        "description": "Ingegneria basata sui dati per performance e crescita.",
+        "tags": [
+          "Analytics",
+          "Performance",
+          "SEO"
+        ]
+      },
+      {
+        "number": "06",
+        "title": "Due diligence tech",
+        "description": "Audit di codebase e infrastrutture prima delle decisioni critiche.",
+        "tags": [
+          "Audit",
+          "Sicurezza",
+          "Report"
+        ]
+      }
+    ]
+  },
+  "work": {
+    "label": "Lavori selezionati",
+    "title": "Cosa abbiamo costruito",
+    "sub": "Prodotti reali. Impatto reale.",
+    "cta": "Inizia un progetto",
+    "filters": [
+      "Tutti",
+      "Sviluppo prodotto",
+      "Integrazione AI",
+      "Architettura di sistema",
+      "Growth engineering",
+      "Trasformazione digitale"
+    ],
+    "showing": "Visualizzando",
+    "of": "di",
+    "projects": "progetti",
+    "status": {
+      "live": "Live",
+      "inProgress": "In corso",
+      "completed": "Completato"
+    }
+  },
+  "about": {
+    "label": "Chi siamo",
+    "title": "Costruiti sulla visione",
+    "p1": "Naxus è una società di sviluppo tecnologico e holding con sede a Dubai, EAU.",
+    "p2": "Collaboriamo con fondatori, aziende e investitori per sviluppare prodotti.",
+    "cta_primary": "Lavora con noi",
+    "cta_secondary": "I nostri servizi",
+    "values": [
+      {
+        "title": "Visione prima",
+        "desc": "Ogni decisione inizia con l'obiettivo finale."
+      },
+      {
+        "title": "Consegnare veloce",
+        "desc": "La velocità è una funzionalità."
+      },
+      {
+        "title": "Responsabilità",
+        "desc": "Piena responsabilità. Nessuna scusa."
+      },
+      {
+        "title": "Costruire scalabile",
+        "desc": "Architettura progettata per crescere con te."
+      }
+    ],
+    "stats": [
+      {
+        "value": "2022",
+        "label": "Fondata"
+      },
+      {
+        "value": "15+",
+        "label": "Progetti"
+      },
+      {
+        "value": "6",
+        "label": "Paesi"
+      },
+      {
+        "value": "∞",
+        "label": "Ambizione"
+      }
+    ]
+  },
+  "team": {
+    "label": "Il team",
+    "title": "Il nostro team"
+  },
+  "contact": {
+    "label": "Contattaci",
+    "title": "Costruiamo insieme",
+    "sub": "Hai un progetto in mente? Ci piacerebbe sentire la tua visione.",
+    "available": "Disponibile per nuovi progetti",
+    "info": {
+      "email": "Email",
+      "location": "Posizione",
+      "linkedin": "LinkedIn"
+    },
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "Mario Rossi",
+      "email": "Email",
+      "emailPlaceholder": "mario@azienda.it",
+      "subject": "Oggetto",
+      "message": "Messaggio",
+      "messagePlaceholder": "Raccontaci del tuo progetto...",
+      "submit": "Invia messaggio",
+      "subjects": [
+        "Sviluppo prodotto",
+        "Integrazione AI",
+        "Architettura di sistema",
+        "Consulenza tech",
+        "Altro"
+      ]
+    },
+    "success": {
+      "title": "Messaggio inviato",
+      "sub": "Ti risponderemo entro 24 ore.",
+      "again": "Invia un altro"
+    }
+  },
+  "auth": {
+    "getStarted": "Inizia",
+    "headline": "Inizia",
+    "sub": "Unisciti a Naxus e costruisci la tua visione.",
+    "login": "Accedi",
+    "loginSub": "Hai già un account",
+    "join": "Unisciti",
+    "joinSub": "Crea un nuovo account",
+    "tagline": "La tua visione. Il nostro codice.",
+    "pageTitle": "Bentornato",
+    "pageSubtitle": "Accedi al tuo account Naxus",
+    "registerTitle": "Crea account",
+    "registerSubtitle": "Unisciti al team Naxus oggi",
+    "name": "Nome completo",
+    "namePlaceholder": "Mario Rossi",
+    "email": "Email",
+    "emailPlaceholder": "tu@azienda.it",
+    "password": "Password",
+    "passwordPlaceholder": "Min. 8 caratteri",
+    "forgotPassword": "Password dimenticata?",
+    "signIn": "Accedi",
+    "createAccount": "Crea account",
+    "noAccount": "Non hai un account?",
+    "hasAccount": "Hai già un account?",
+    "createOne": "Creane uno",
+    "signInLink": "Accedi",
+    "orContinueWith": "o",
+    "terms": "Termini",
+    "privacy": "Privacy",
+    "termsText": "Creando un account accetti i nostri",
+    "and": "e"
+  },
+  "footer": {
+    "tagline": "La tua visione. Il nostro codice. Costruendo il futuro da Dubai.",
+    "available": "Disponibile in tutto il mondo",
+    "company": "Azienda",
+    "legal": "Legale",
+    "links": {
+      "about": "Chi siamo",
+      "services": "Servizi",
+      "work": "Progetti",
+      "contact": "Contatti",
+      "privacy": "Privacy",
+      "terms": "Termini"
+    },
+    "copyright": "Tutti i diritti riservati.",
+    "motto": "LA TUA VISIONE. IL NOSTRO CODICE."
+  }
+}
