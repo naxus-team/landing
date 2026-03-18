@@ -5,6 +5,7 @@ import { type Locale } from "@/lib/i18n";
 import { Analytics } from "@vercel/analytics/next"
 
 import "./globals.css";
+import ProgressBar from "@/components/common/ProgressBar";
 
 const notoSans = Noto_Sans({
   subsets: ["latin"],
@@ -52,20 +53,12 @@ export const metadata: Metadata = {
 
 export const dynamicParams = false;
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html
-      lang="en"
-      suppressHydrationWarning
-      className={`${notoSans.variable} ${notoSansArabic.variable}`}
-    >
-      <body>
+    <html lang="en" suppressHydrationWarning className={`${notoSans.variable} ${notoSansArabic.variable}`}>
+      <body suppressHydrationWarning>
+        <ProgressBar />
         <Providers>{children}</Providers>
-        <Analytics />
       </body>
     </html>
   );

@@ -1,8 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useI18n } from "@/lib/i18n-context";
-import { type Locale } from "@/lib/i18n";
+import { type getLocale , useI18n } from "@/lib/i18n-context";
 import {
     Dialog, DialogContent, DialogHeader,
     DialogTitle, DialogTrigger,
@@ -11,7 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Check, Languages, RotateCcw, Sparkles } from "lucide-react";
 
 type Language = {
-    locale: Locale;
+    locale: getLocale;
     native: string;
     label: string;
     flag: string;
@@ -39,7 +38,7 @@ export default function LangDialog() {
         setSource(s === "manual" ? "manual" : "auto");
     }, [locale]);
 
-    const handleSelect = (l: Locale) => {
+    const handleSelect = (l: getLocale) => {
         setLocale(l);
         setSource("manual");
         setOpen(false);
